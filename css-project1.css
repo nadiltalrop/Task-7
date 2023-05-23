@@ -1,0 +1,1700 @@
+*{
+    text-decoration: none;
+    max-width: 1280px;
+    margin: 0 auto;
+    color: black;
+}
+.wrapper {
+	width: 90%;
+}
+body{
+    font-family: 'Gordita Regular';
+}
+
+@font-face {
+    font-family: 'Gordita Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: url('Gordita Regular.woff') format('woff');
+    
+}
+@font-face {
+    font-family: 'Gordita Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: url('Gordita Medium.woff') format('woff');
+   
+}
+    
+ul{
+    list-style: none;
+}
+
+
+
+header{
+    height: 50px;
+    width: 100%;
+    background: #fff;
+    padding: 30px 0;
+   
+}
+header section.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+header section.wrapper div.left h1 a img{
+    width: 120%;
+    display: block;
+    margin-left: -63px;
+}
+header section.wrapper div.middle ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header section.wrapper div.middle ul li{
+  margin-left: 40px;
+  font-size: 16px;
+  font-weight: 600;
+  opacity: .6;
+}
+header section.wrapper div.right ul{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 22px;
+    align-items: center;
+    width: 100%;
+}
+header section.wrapper div.right ul li{
+    font-size: 18px;
+    font-weight: 600;
+    opacity: .6;
+}
+header section.wrapper div.right ul li a.button{
+    background: rgb(20, 20, 20);
+    background: linear-gradient(121deg, rgba(247,8,130,1) 0%, rgba(208,67,29,1) 35%, rgba(42,99,209,1) 100%);
+    padding: 12px 16px;
+    border-radius: 9px;
+    display: inline-block;
+    text-decoration: none;
+}
+header section.wrapper div.right ul li:last-child{
+   margin-right: 0;
+}
+
+header section.wrapper section.top ul li:hover{
+    border-bottom: 1px solid black;
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+#spotlight{
+
+}
+#spotlight section.spotlight-section{
+    display: flex;
+    justify-content: space-between;
+}
+#spotlight section.spotlight-section div.left{
+    width: 50%;
+    background: #F8F8FA;
+    align-items: center;
+    text-align: left;
+}
+#spotlight section.spotlight-section div.left div.content{
+    margin: 150px 80px;
+}
+#spotlight section.spotlight-section div.left p{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(145, 128, 128);
+    margin-bottom: 10px;
+    margin-left: 30px;
+    width: 83%;
+
+}
+#spotlight section.spotlight-section div.left p.two{
+    margin-bottom: 50px;
+    width: 95%;
+}
+
+#spotlight section.spotlight-section div.left h1{
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    width: 80%;
+}
+#spotlight section.spotlight-section div.left a.button{
+    background: rgb(247,8,130);
+    background: linear-gradient(121deg, rgba(247,8,130,1) 0%, rgba(208,67,29,1) 35%, rgba(42,99,209,1) 100%);
+    padding: 20px 30px;
+    border-radius: 9px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 22px;
+    margin-left: 30px;
+}
+
+#spotlight section.spotlight-section div.right{
+    width: 50%;
+}
+#spotlight section.spotlight-section div.right img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+#works{
+    background: #fff;
+    margin: 80px auto;
+}
+#works section.top{
+    margin: 80px auto 20px auto;
+    text-align: center;
+}
+#works section.top h4{
+    font-size: 38px;
+}
+#works section.top p{
+    align-content: center;
+    width: 36%;
+    margin: 30px auto;
+    font-size: 18px;
+    color: rgb(145, 128, 128);
+}
+
+#works section.bottom{
+    background: url(Assets/howitwork-path.svg)no-repeat;
+    background-size: 800px;
+    background-position-x: 200px;
+    background-position-y: 80px;
+    margin: 0 auto;
+
+}
+#works section.bottom ul{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    overflow: hidden;
+    margin-top: 80px;
+    position: relative;
+}
+#works section.bottom ul li{
+    margin-left: 20px;
+    width: 100%;
+}
+#works section.bottom ul li img{
+    width: 100%;
+    max-width: 90%;
+}
+#works section.bottom ul li h5{
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-right: 40px;
+}
+#works section.bottom ul li p{
+    width: 50%;
+    color: rgb(145, 128, 128);
+    margin-left:75px;
+
+}
+#works section.bottom ul li.middle p{
+    margin-top: -4px;
+}
+#works section.bottom ul li p.last{
+    width: 70%;
+}
+#works section.bottom ul li.middle h5{
+    margin-top: -64px;
+}
+#works section.bottom ul li p.add{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    bottom: 246px;
+    right: -86px;
+    color: black;
+}
+
+
+
+
+
+
+
+
+#download{
+    margin: 60px auto;
+}
+#download  div.download-section{
+    display: flex;
+    justify-content:space-between;
+    background: #fff;
+    margin: 0 auto;
+}
+#download div.left{
+    width: 50%;
+}
+#download div.left img{
+    width: 90%;
+    max-width: 70%;
+    display: block;
+}
+#download div.right{
+    width: 50%;
+    text-align: left;
+    align-items: center;
+    align-content: center;
+    padding-top: 120px;
+}
+#download div.right h5{
+    font-size: 44px;
+    font-weight: 600;
+    width: 68%;
+    margin-bottom: 20px;
+}
+#download div.right p{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(145, 128, 128);
+    width: 68%;
+    margin-bottom: 30px;
+}
+#download div.right div.appstore{
+    width: 68%;
+}
+#download div.right div.appstore a.button{
+    display: inline-flex;
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(145, 128, 128);
+    border: 1px solid rgb(192, 188, 188);
+    padding: 16px 22px 16px 0;
+    border-radius: 16px;
+    margin-top: 30px;
+    align-items: center;
+}
+#download div.right div.appstore img{
+    width: 25%;
+    margin-right: 20px;
+}
+
+
+#download div.right div.playstore{
+    width: 68%;   
+}
+#download div.right div.playstore a.button{
+    display: inline-flex;
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(145, 128, 128);
+    border: 1px solid rgb(192, 188, 188);
+    padding: 16px 22px 16px 8px;
+    border-radius: 16px;
+    margin-top: 30px;
+    align-items: center;
+}
+#download div.right div.playstore img{
+    width: 25%;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+#banking{
+    width: 100%;
+    margin: 0 auto;
+    align-content: center;
+    background: #fff;
+}
+#banking div.banking-section{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+}
+#banking div.banking-section div.left{
+    width: 50%;
+    padding: 85px 10px;
+}
+#banking div.banking-section div.left h5{
+    font-size: 40px;
+    font-weight: 600;
+    width: 68%;
+    margin-bottom: 20px;   
+}
+#banking div.banking-section div.left p{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(145, 128, 128);
+    width: 68%;
+    margin-bottom: 30px;
+}
+#banking div.banking-section div.button{
+    display: flex;
+    display: block;
+    text-align: center;
+    margin-left: 10px;
+    width: 60%;
+}
+#banking div.banking-section div a.button{
+    display: inline-flex;
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(145, 128, 128);
+    border: 1px solid  #E45F83;
+    padding: 18px 22px 18px 18px;
+    border-radius: 16px;
+    margin-top: 20px;
+}
+#banking div.banking-section div.right{
+    width: 50%;
+}
+#banking div.banking-section div.right img{
+    width: 60%;
+    display: block;
+}
+
+
+
+
+
+
+
+#subscribe{
+    margin: 50px auto;
+    text-align: center;
+    width: 100%;
+}
+#subscribe div.top{
+    margin: 50px auto;
+}
+#subscribe div.top h3{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#subscribe div.top p{
+    font-size: 18px;
+    color: rgb(145, 128, 128);
+}
+
+
+#subscribe div.bottom {
+    width: 100%;
+}
+#subscribe div.bottom form{
+    width: 60%;
+    display: inline-block;
+}
+#subscribe div.bottom form input[type="email"]{
+    padding: 38px 26px;
+    border: 1px solid rgb(198, 194, 194);
+    border-radius: 16px;
+    width: 90%;
+    font-size: 18px;
+}
+#subscribe div.bottom form input[type="submit"]{
+    background: linear-gradient(121deg, rgba(247,8,130,1) 0%, rgba(208,67,29,1) 35%, rgba(42,99,209,1));
+    border-radius: 12px;
+    border: hidden;
+    padding: 18px 24px;  
+    margin-left: -160px; 
+    color:#fff;
+    font-weight: 600;
+    font-size: 18px;
+}
+#subscribe div.bottom form input[type="submit"]:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
+footer{
+    width: 100%;
+    background: #F8F8FA;
+    margin-top: 80px;
+}
+footer div.footer-section{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 80px;
+}
+
+
+footer div.footer-section div.one{
+    width: 25%;
+    margin-top: -20px;
+} 
+footer div.footer-section div.one a.logo img{
+    width: 40%;
+    margin-bottom: 20px;
+    
+}
+footer div.footer-section div.one p{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(145, 128, 128);
+    margin-bottom: 30px;
+    width: 60%;
+    margin-left: 0;
+}
+footer div.footer-section div.one ul{
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+    margin-left: -50px;
+}
+footer div.footer-section div.one ul li{
+    margin-left: 20px;
+    background: #ececf0f1;
+    padding: 6px 10px;
+    border-radius: 20%;
+}
+
+
+
+footer div.footer-section div.two{
+    width: 20%;
+    align-items: center;
+}
+footer div.footer-section div.two h5{
+    font-size: 16px;
+    margin-bottom: 10px;            
+}
+footer div.footer-section div.two ul{
+    margin-left: -40;
+}
+footer div.footer-section div.two ul li a{
+    line-height: 37px;
+    color: rgb(145, 128, 128);
+}
+
+
+
+footer div.footer-section div.three{
+    width: 20%;
+}
+footer div.footer-section div.three h5{
+    font-size: 16px;
+    margin-bottom: 10px;  
+}
+footer div.footer-section div.three ul{
+    margin-left: -40;
+}
+footer div.footer-section div.three ul li a{
+    line-height: 37px;
+    color: rgb(145, 128, 128);
+}
+
+
+footer div.footer-section div.four{
+    width: 20%;
+}
+footer div.footer-section div.four h5{
+    font-size: 16px;
+    margin-bottom: 10px; 
+}
+footer div.footer-section div.four ul{
+    margin-left: -40;
+}
+footer div.footer-section div.four ul li a{
+    line-height: 37px;
+    color: rgb(145, 128, 128);
+}
+
+
+footer div.footer-section div.website{
+    width: 100%;
+}
+footer section.wrapper div.website p{
+    text-align: center;
+    padding-bottom: 30px;
+    color: rgb(145, 128, 128);
+}
+
+
+
+
+
+@media all and (max-width:1280px){
+
+}
+
+@media all and (max-width:980px){
+    header section.wrapper div.left h1 a img {
+        width: 80%;
+        display: block;
+        margin-left: 0px;
+    }
+    header section.wrapper div.right ul li a.button {
+        margin-right: 25px;
+    }
+    #spotlight{
+        height: 700px;
+    }
+    #spotlight section.spotlight-section{
+        height: 50%;
+    }
+    #spotlight section.spotlight-section div.left{
+        height: 600px;
+    }
+    #spotlight section.spotlight-section div.left div.content{
+        margin: 80px 80px;
+    }
+    #spotlight section.spotlight-section div.left h1{
+        width: 100%;
+    }
+    #spotlight section.spotlight-section div.right img{
+        height: 600px;
+    }
+    #spotlight section.spotlight-section div.left a.button{
+        padding: 14px;
+        font-size: 18px;
+        margin-left: 30px;
+    }
+
+
+    #works{
+        margin: 0px auto;
+    }
+    #works section.top{
+        margin: 20px auto 20px auto;
+        text-align: center;
+    }
+    #works section.bottom ul li.middle h5 {
+        margin-top: -48px;
+    }
+    #works section.bottom ul li{
+        margin-top: 17px;
+        position: relative;
+    }
+    #works section.bottom ul li p {
+        width: 70%;
+        color: rgb(145, 128, 128);
+        margin-left: 30px;
+    }
+    #works section.bottom{
+        background: url(Assets/howitwork-path.svg)no-repeat;
+        background-size: 700px;
+        background-position-x: 115px;
+        background-position-y: 40px;
+        margin: 0 auto;
+    }
+    #works section.bottom ul li p.add {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        bottom: 232px;
+        right: 69px;
+        color: black;
+        font-size: 14px;
+    }
+    #works section.bottom ul {
+        display: flex;
+        justify-content: space-between;
+        width: 95%;
+        overflow: hidden;
+        margin-top: 80px;
+        position: relative;
+    }
+
+
+    #download div.right{
+        width: 50%;
+        text-align: left;
+        align-items: center;
+        align-content: center;
+        padding-top: 23px;
+    }
+    #banking div.banking-section div.left{
+        width: 50%;
+        padding: 30px 10px;
+    }
+    #banking div.banking-section div.left h5{
+        font-size: 36px;
+        font-weight: 600;
+        width: 80%;
+        margin-bottom: 20px;   
+        padding-left: 50px;
+    }
+    #banking div.banking-section div a.button {
+        display: inline-flex;
+        font-size: 18px;
+        font-weight: 600;
+        color: rgb(145, 128, 128);
+        border: 1px solid #E45F83;
+        padding: 8px 12px 8px 12px;
+        border-radius: 16px;
+        margin-top: 20px;
+    }
+    footer div.footer-section {
+        width: 87%;
+        display: flex;
+        justify-content: space-between;
+        padding: 80px 80px;
+    }
+    footer div.footer-section div.one p {
+        font-size: 18px;
+        font-weight: 500;
+        color: rgb(145, 128, 128);
+        margin-bottom: 30px;
+        width: 100%;
+        margin-left: 0;
+    }
+    footer div.footer-section div{
+        margin-left: 20px;
+    }
+}
+
+
+
+
+
+
+@media all and (max-width:768px){
+    header section.wrapper div.middle{
+        visibility: hidden;
+    }
+    header {
+        height: 37px;
+        width: 96%;
+        background: #fff;
+        padding: 30px 0;
+    }
+    header section.wrapper div.left h1 a img {
+        width: 150px;
+        display: block;
+        margin-left: -21px;
+    }
+    header section.wrapper div.middle {
+        visibility: hidden;
+        width: 137px;
+    }
+    header section.wrapper div.right ul {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 159px;
+        align-items: center;
+        width: 55%;
+    }
+    header section.wrapper div.right ul li {
+        font-size: 14px;
+        font-weight: 600;
+        opacity: .6;
+    }
+    section.wrapper div.right ul li a.button {
+        background: rgb(20, 20, 20);
+        background: linear-gradient(121deg, rgba(247,8,130,1) 0%, rgba(208,67,29,1) 35%, rgba(42,99,209,1) 100%);
+        padding: 10px 16px;
+        border-radius: 9px;
+        display: inline-block;
+    }
+    #spotlight {
+        height: 620px;
+    }
+    #spotlight section.spotlight-section div.left {
+        height: 550px;
+    }
+    #spotlight section.spotlight-section div.left div.content {
+        margin: 81px 54px;
+    }
+    #spotlight section.spotlight-section div.left h1 {
+        width: 100%;
+        font-size: 33px;
+    }
+    #spotlight section.spotlight-section div.left p {
+        font-size: 16px;
+        font-weight: 600;
+        color: rgb(145, 128, 128);
+        margin-bottom: 10px;
+        margin-left: 30px;
+        width: 83%;
+    }
+    #spotlight section.spotlight-section div.left a.button {
+        padding: 10px;
+        font-size: 15px;
+        margin-left: 30px;
+    }
+    #spotlight section.spotlight-section div.right img {
+        height: 550px;
+    }
+    #works section.top {
+        margin: 0px auto;
+        text-align: center;
+    }
+    #works section.top p {
+        align-content: center;
+        width: 66%;
+        margin: 20px auto;
+        font-size: 18px;
+        color: rgb(145, 128, 128);
+    }
+    #works section.bottom ul {
+        display: flex;
+        justify-content: space-between;
+        width: 98%;
+        overflow: hidden;
+        margin-top: 80px;
+        position: relative;
+    }
+    #works section.bottom ul li h5 {
+        font-size: 24px;
+        margin-bottom: 10px;
+        text-align: center;
+        margin-right: 50px;
+    }
+    #works section.bottom ul li {
+        margin-left: 0px;
+        width: 100%;
+    }
+    #works section.bottom ul li p {
+        width: 70%;
+        color: rgb(145, 128, 128);
+        margin-left: 10px;
+        font-size: 12px;
+    }
+    #works section.bottom ul li.middle h5 {
+        margin-top: -43px;
+    }
+    #works section.bottom ul li p.last {
+        width: 87%;
+        font-size: 12px;
+    }
+    #works section.bottom {
+        background: url(Assets/howitwork-path.svg)no-repeat;
+        background-size: 567px;
+        background-position-x: 89px;
+        background-position-y: 58px;
+        margin: 0 auto;
+    }
+    #works section.bottom ul li p.add {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        bottom: 162px;
+        right: 53px;
+        color: black;
+        font-size: 10px;
+    }
+
+    #download div.right h5 {
+        font-size: 31px;
+        font-weight: 600;
+        width: 68%;
+        margin-bottom: 20px;
+    }
+    #download div.right p {
+        font-size: 12px;
+        font-weight: 500;
+        color: rgb(145, 128, 128);
+        width: 76%;
+        margin-bottom: 30px;
+        margin-left: 50px;
+    }
+    #download div.right div.appstore img {
+        margin-left: 10px;
+        width: 20%;
+        margin-right: 10px;
+    }
+    #download div.right div.appstore a.button {
+        display: inline-flex;
+        font-size: 14px;
+        font-weight: 600;
+        color: rgb(145, 128, 128);
+        border: 1px solid rgb(192, 188, 188);
+        padding: 10px;
+        border-radius: 16px;
+        margin-top: 30px;
+        align-items: center;
+        width: 60%;
+    }
+    #download div.right div.playstore img {
+        width: 20%;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    #download div.right div.playstore a.button {
+        display: inline-flex;
+        font-size: 14px;
+        font-weight: 600;
+        color: rgb(145, 128, 128);
+        border: 1px solid rgb(192, 188, 188);
+        padding: 8px 10px;
+        border-radius: 16px;
+        margin-top: 21px;
+        align-items: center;
+        width: 60%;
+    }
+    #banking div.banking-section div.left h5 {
+        font-size: 28px;
+        font-weight: 600;
+        width: 80%;
+        margin-bottom: 20px;
+        padding-left: 29px;
+    }
+    #banking div.banking-section div.left p {
+        font-size: 10px;
+        font-weight: 500;
+        color: rgb(145, 128, 128);
+        width: 68%;
+        margin-bottom: 10px;
+    }
+    #banking div.banking-section div a.button {
+        display: inline-flex;
+        font-size: 12px;
+        font-weight: 600;
+        color: rgb(145, 128, 128);
+        border: 1px solid #E45F83;
+        padding: 10px;
+        border-radius: 16px;
+        margin-top: 15px;
+    }
+
+
+    #subscribe div.top h3 {
+        font-size: 30px;
+        font-weight: 600;
+        margin-bottom: 14px;
+    }
+    #subscribe div.top p {
+        font-size: 12px;
+        color: rgb(145, 128, 128);
+    }
+    #subscribe div.bottom form input[type="email"] {
+        padding: 21px 12px;
+        border: 1px solid rgb(198, 194, 194);
+        border-radius: 16px;
+        width: 98%;
+        font-size: 11px;
+    }
+    #subscribe div.bottom form input[type="submit"] {
+        background: linear-gradient(121deg, rgba(247,8,130,1) 0%, rgba(208,67,29,1) 35%, rgba(42,99,209,1));
+        border-radius: 12px;
+        border: hidden;
+        padding: 16px 22px;
+        margin-left: -120px;
+        color: #fff;
+        font-weight: 600;
+        font-size: 11px;
+    }
+    footer div.footer-section {
+        width: 76%;
+        display: flex;
+        justify-content: space-between;
+        padding: 70px 59px;
+    }
+    footer div.footer-section div.one {
+        width: 25%;
+        margin-top: 0px;
+    }
+    footer div.footer-section div.one a.logo img {
+        width: 70%;
+        margin-bottom: 10px;
+    }
+    footer div.footer-section div.one p {
+        font-size: 10px;
+        font-weight: 500;
+        color: rgb(145, 128, 128);
+        margin-bottom: 30px;
+        width: 100%;
+        margin-left: 0;
+    }
+    footer div.footer-section div.one ul {
+        display: flex;
+        justify-content: space-between;
+        width: 25%;
+        margin-left: -62px;
+    }
+    footer div.footer-section div.one ul li {
+        margin-left: 15px;
+        background: #ececf0f1;
+        padding: 2px 8px;
+        border-radius: 20%;
+    }
+    footer div.footer-section div.two ul li a {
+        line-height: 18px;
+        color: rgb(145, 128, 128);
+        font-size: 13px;
+    }
+    footer div.footer-section div.two {
+        width: 20%;
+        margin-left: 41px;
+    }
+   
+    footer div.footer-section div.three {
+        width: 20%;
+        margin-left: 40px;
+    }
+    footer div.footer-section div.three ul li a {
+        line-height: 18px;
+        color: rgb(145, 128, 128);
+        font-size: 13px;
+    }
+    footer div.footer-section div.four {
+        width: 20%;
+        margin-left: 40px;
+    }
+    footer div.footer-section div.four   ul li a {
+        line-height: 18px;
+        color: rgb(145, 128, 128);
+        font-size: 13px;
+    }
+}
+
+
+
+
+@media all and (max-width:640px){
+    header section.wrapper div.right ul {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 115px;
+        align-items: center;
+        width: 40%;
+    }
+    header section.wrapper div.right ul li {
+        font-size: 14px;
+        font-weight: 600;
+        opacity: .6;
+        margin-right: 10px;
+    }
+    header section.wrapper div.right ul li a.button {
+        margin-right: 0px;
+    }
+    #spotlight section.spotlight-section div.left {
+        height: 400px;
+    }
+    #spotlight section.spotlight-section div.left div.content {
+        margin: 75px 5px;
+    }
+    #spotlight section.spotlight-section div.left p {
+        font-size: 12px;
+        font-weight: 600;
+        color: rgb(145, 128, 128);
+        margin-bottom: 10px;
+        margin-left: 30px;
+        width: 83%;
+    }
+    #spotlight section.spotlight-section div.left h1 {
+        width: 100%;
+        font-size: 21px;
+    }
+    #spotlight section.spotlight-section div.right {
+        width: 43%;
+        margin-left: 8px;
+    }
+    #spotlight section.spotlight-section div.right img {
+        height: 400px;
+    }
+    #spotlight {
+        height: 470px;
+    }
+
+    #works section.top p {
+        align-content: center;
+        width: 66%;
+        margin: 20px auto;
+        font-size: 14px;
+        color: rgb(145, 128, 128);
+    }
+    #works section.top h4 {
+        font-size: 36px;
+    }
+    #works section.bottom {
+        background: url(Assets/howitwork-path.svg)no-repeat;
+        background-size: 567px;
+        background-position-x: 89px;
+        background-position-y: 58px;
+        margin: 0 auto;
+        background: #fff;
+    }
+    #works section.bottom ul {
+        display: flex;
+        justify-content: space-between;
+        width: 75%;
+        overflow: hidden;
+        margin-top: 31px;
+        position: relative;
+        flex-wrap: wrap;
+        background: #fff;
+    }
+    #works section.bottom ul li img {
+        width: 100%;
+        max-width: 80%;
+        margin: 0 35px;
+    }
+    #works section.bottom ul li h5 {
+        font-size: 24px;
+        margin-bottom: 10px;
+        text-align: center;
+        margin-left: 7px;
+        width: 85%;
+        margin-top: -49px;
+    }
+    #works section.bottom ul li p {
+        width: 30%;
+        color: rgb(145, 128, 128);
+        margin-left: 126px;
+        font-size: 12px;
+    }
+    #works section.bottom ul li.middle h5 {
+        margin-top: -72px;
+    }
+    #works section.bottom ul li.middle p {
+        margin-top: -4px;
+        width: 134px;
+    }
+    #works section.bottom ul li p.last {
+        width: 47%;
+        font-size: 12px;
+    }
+    #works section.bottom ul li p.add {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        bottom: 167px;
+        right: 163px;
+        color: black;
+        font-size: 13px;
+    }
+    #banking div.banking-section div.left {
+        width: 50%;
+        padding: 24px 10px;
+    }
+    #banking div.banking-section div.left h5 {
+        font-size: 27px;
+        font-weight: 600;
+        width: 80%;
+        margin-bottom: 10px;
+        padding-left: 29px;
+    }
+    #banking div.banking-section div a.button {
+        display: inline-flex;
+        font-size: 10px;
+        font-weight: 600;
+        color: rgb(145, 128, 128);
+        border: 1px solid #E45F83;
+        padding: 10px;
+        border-radius: 16px;
+        margin-top: 6px;
+    }
+    #subscribe div.top h3 {
+        font-size: 26px;
+        font-weight: 600;
+        margin-bottom: 8px;
+    }
+    #subscribe div.top p {
+        font-size: 10px;
+        color: rgb(145, 128, 128);
+    }
+    footer div.footer-section {
+        width: 76%;
+        display: flex;
+        justify-content: space-between;
+        padding: 70px 59px;
+        flex-direction: column;
+    }
+    footer div.footer-section div.one a.logo img {
+        width: 120%;
+        margin-bottom: 8px;
+    }
+    footer div.footer-section div.two {
+        width: 20%;
+        margin-left: 22px;
+        margin-top: 30px;
+    }
+    footer div.footer-section div.three {
+        width: 20%;
+        margin-left: 22px;
+        margin-top: 30px;
+    }
+    footer div.footer-section div.four {
+        width: 20%;
+        margin-left: 22px;
+        margin-top: 30px;
+    }
+}
+
+
+
+
+
+
+@media all and (max-width:460px){
+    header section.wrapper div.right ul {
+        display: flex;
+        justify-content: space-between;
+        margin-left: -9px;
+        align-items: center;
+        width: 40%;
+    }
+     header section.wrapper div.middle ul{
+        display: none;
+    }
+    header section.wrapper div.right ul li {
+        font-size: 8px;
+        font-weight: 600;
+        opacity: .6;
+        margin-right: 10px;
+    }
+    header section.wrapper div.left h1 a img {
+        width: 110px;
+        display: block;
+        margin-left: -21px;
+    }
+    #spotlight section.spotlight-section div.left {
+        height: 280px;
+    }
+    #spotlight section.spotlight-section div.left div.content {
+        margin: 23px 5px;
+    }
+    #spotlight section.spotlight-section div.left h1 {
+        width: 59%;
+        font-size: 20px;
+    }
+    #spotlight section.spotlight-section div.left p {
+        font-size: 11px;
+        font-weight: 600;
+        color: rgb(145, 128, 128);
+        margin-bottom: 10px;
+        margin-left: 30px;
+        width: 83%;
+    }
+    #spotlight section.spotlight-section div.right {
+        width: 43%;
+        margin-left: -10px;
+    }
+    #spotlight section.spotlight-section div.left p.two {
+        margin-bottom: 28px;
+        width: 95%;
+    }
+    #spotlight section.spotlight-section div.left a.button {
+        padding: 10px;
+        font-size: 8px;
+        margin-left: 30px;
+    }
+    #spotlight section.spotlight-section div.right img {
+        height: 280px;
+    }
+    #spotlight {
+        height: 345px;
+    }
+
+    #works section.top h4 {
+        font-size: 28px;
+    }
+    #works section.top p {
+        align-content: center;
+        width: 66%;
+        margin: 10px auto;
+        font-size: 10px;
+        color: rgb(145, 128, 128);
+    }
+    #works section.bottom ul li h5 {
+        font-size: 18px;
+        margin-bottom: 5px;
+        text-align: center;
+        margin-left: 12px;
+        width: 85%;
+        margin-top: -26px;
+    }
+    #works section.bottom ul li p {
+        width: 36%;
+        color: rgb(145, 128, 128);
+        margin-left: 94px;
+        font-size: 10px;
+    }
+    #works section.bottom ul li p.add {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        bottom: 133px;
+        right: 110px;
+        color: black;
+        font-size: 13px;
+    }
+    
+    
+    #works section.bottom ul li p.last {
+        width: 47%;
+        font-size: 10px;
+    }
+    #works section.bottom ul li.middle h5 {
+        margin-top: -47px;
+    }
+    #download div.right h5 {
+        font-size: 22px;
+        font-weight: 600;
+        width: 68%;
+        margin-bottom: 6px;
+    }
+    #download div.right p {
+        font-size: 8px;
+        font-weight: 500;
+        color: rgb(145, 128, 128);
+        width: 78%;
+        margin-bottom: 0px;
+        margin-left: 34px;
+    }
+    #download div.right div.appstore img {
+        margin-left: 10px;
+        width: 15%;
+        margin-right: 8px;
+    }
+    #download div.right div.appstore a.button {
+        display: inline-flex;
+        font-size: 8px;
+        font-weight: 600;
+        color: rgb(145, 128, 128);
+        border: 1px solid rgb(192, 188, 188);
+        padding: 10px;
+        border-radius: 16px;
+        margin-top: 30px;
+        align-items: center;
+        width: 60%;
+    }
+    #download div.right div.playstore a.button {
+        display: inline-flex;
+        font-size: 8px;
+        font-weight: 600;
+        color: rgb(145, 128, 128);
+        border: 1px solid rgb(192, 188, 188);
+        padding: 8px 10px;
+        border-radius: 16px;
+        margin-top: 12px;
+        align-items: center;
+        width: 60%;
+    }
+    #download div.right div.playstore img {
+        width: 15%;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    #banking div.banking-section div.left h5 {
+        font-size: 18px;
+        font-weight: 600;
+        width: 80%;
+        margin-bottom: 8px;
+        padding-left: 0px;
+    }  
+    #banking div.banking-section div.left {
+        width: 45%;
+        padding: 24px 10px;
+    }
+    #banking div.banking-section div.left p {
+        font-size: 8px;
+        font-weight: 500;
+        color: rgb(145, 128, 128);
+        width: 79%;
+        margin-bottom: 5px;
+    }
+    #banking div.banking-section div a.button {
+        display: inline-flex;
+        font-size: 8px;
+        font-weight: 600;
+        color: rgb(145, 128, 128);
+        border: 1px solid #E45F83;
+        padding: 8px;
+        border-radius: 13px;
+        margin-top: 6px;
+    }
+    #subscribe div.top h3 {
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 8px;
+    }
+    #subscribe div.top p {
+        font-size: 8px;
+        color: rgb(145, 128, 128);
+    }
+    #subscribe div.bottom form input[type="email"] {
+        padding: 12px 14px;
+        border: 1px solid rgb(198, 194, 194);
+        border-radius: 16px;
+        width: 98%;
+        font-size: 10px;
+    }
+    #subscribe div.bottom form input[type="submit"] {
+        background: linear-gradient(121deg, rgba(247,8,130,1) 0%, rgba(208,67,29,1) 35%, rgba(42,99,209,1));
+        border-radius: 12px;
+        border: hidden;
+        padding: 9px 12px;
+        margin-left: -82px;
+        color: #fff;
+        font-weight: 600;
+        font-size: 9px;
+    }
+    #subscribe div.top {
+     margin: 26px auto;
+    }
+    footer div.footer-section div.one p {
+        font-size: 9px;
+        font-weight: 500;
+        color: rgb(145, 128, 128);
+        margin-bottom: 30px;
+        width: 100%;
+        margin-left: 0;
+    }
+    footer div.footer-section div.two h5 {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    footer div.footer-section div.two ul li a {
+        line-height: 18px;
+        color: rgb(145, 128, 128);
+        font-size: 9px;
+    }
+    footer div.footer-section div.three ul li a {
+        line-height: 18px;
+        color: rgb(145, 128, 128);
+        font-size: 8px;
+    }
+    footer div.footer-section div.four ul li a{
+        line-height: 18px;
+        color: rgb(145, 128, 128);
+        font-size: 8px;
+    }
+    footer section.wrapper div.website p {
+        text-align: center;
+        padding-bottom: 30px;
+        color: rgb(145, 128, 128);
+        font-size: 10px;
+    }
+    footer section.wrapper div.website p {
+        text-align: center;
+        padding-bottom: 30px;
+        color: rgb(145, 128, 128);
+        font-size: 10px;
+        margin-top: -30px;
+    }
+}
+
+
+
+
+@media all and (max-width:320px){
+    header section.wrapper section.top div.right{
+        display: none;
+    }
+    header {
+        height: 30px;
+        width: 96%;
+        background: #fff;
+        padding: 16px 0;
+    }
+    header section.wrapper div.left h1 a img {
+        width: 110px;
+        display: block;
+        margin-left: 84px;
+    }#spotlight section.spotlight-section div.right img {
+        height: 0px;
+        display: none;
+        width: 0px;
+    }
+    #spotlight section.spotlight-section div.left {
+        height: 280px;
+        width: 100%;
+    }
+    #spotlight section.spotlight-section {
+        height: 79%;
+        width: 100%;
+        background: #F8F8FA;
+    }
+    #spotlight section.spotlight-section div.left {
+        height: 171px;
+        width: 100%;
+    }
+    #spotlight section.spotlight-section div.left div.content {
+        margin: 20px 0px 22px 38px;
+        text-align: center;
+    }
+    #spotlight section.spotlight-section div.left h1 {
+        width: 118%;
+        font-size: 19px;
+        margin-bottom: 10px;
+        margin-left: 0px;
+    }
+    #spotlight section.spotlight-section div.left p.two {
+        margin-bottom: 24px;
+        width: 101%;
+        margin-left: 14px;
+    }
+    #spotlight section.spotlight-section div.left a.button {
+        padding: 6px;
+        font-size: 7px;
+        margin-left: 30px;
+    }
+    #spotlight {
+        height: 271px;
+    }
+    #works section.top h4 {
+        font-size: 22px;
+    }
+    #works section.top p {
+        align-content: center;
+        width: 81%;
+        margin: 10px auto;
+        font-size: 9px;
+        color: rgb(145, 128, 128);
+    }
+    #works section.bottom ul li img {
+        width: 100%;
+        max-width: 70%;
+        margin: 0 10px;
+    }
+    #works section.bottom ul li h5 {
+        font-size: 14px;
+        margin-bottom: 5px;
+        text-align: center;
+        margin-left: 19px;
+        width: 60%;
+        margin-top: -19px;
+    }
+    #works section.bottom ul li p {
+        width: 51%;
+        color: rgb(145, 128, 128);
+        margin-left: 42px;
+        font-size: 9px;
+    }
+    #works section.bottom ul li p.last {
+        width: 59%;
+        font-size: 10px;
+    }
+    #works section.bottom ul li p.add {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        bottom: 100px;
+        right: 90px;
+        color: black;
+        font-size: 10px;
+    }
+    #download div.download-section {
+        display: flex;
+        justify-content: space-between;
+        background: #fff;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+    #download div.left img {
+        width: 90%;
+        max-width: 70%;
+        display: block;
+        margin-top: 10px;
+    }
+    #download div.right h5 {
+        font-size: 18px;
+        font-weight: 600;
+        width: 68%;
+        margin-top: -15px;
+    }
+    #download div.right p {
+        font-size: 8px;
+        font-weight: 500;
+        color: rgb(145, 128, 128);
+        width: 70%;
+        margin-bottom: 0px;
+        margin-left: 24px;
+    }
+    #download div.right div.appstore a.button {
+        display: inline-flex;
+        font-size: 8px;
+        font-weight: 600;
+        color: rgb(145, 128, 128);
+        border: 1px solid rgb(192, 188, 188);
+        padding: 10px;
+        border-radius: 12px;
+        margin-top: 30px;
+        align-items: center;
+        width:72%;
+    }
+    #download div.right div.playstore a.button {
+        display: inline-flex;
+        font-size: 8px;
+        font-weight: 600;
+        color: rgb(145, 128, 128);
+        border: 1px solid rgb(192, 188, 188);
+        padding: 9px 12px;
+        border-radius: 12px;
+        margin-top: 12px;
+        align-items: center;
+        width: 72%;
+    }
+    #download div.right div.appstore {
+        width: 68%;
+        margin-top: -15px;
+    }
+    #download div.right div.playstore a.button {
+        display: inline-flex;
+        font-size: 7px;
+        font-weight: 600;
+        color: rgb(145, 128, 128);
+        border: 1px solid rgb(192, 188, 188);
+        padding: 11px;
+        border-radius: 12px;
+        margin-top: 12px;
+        align-items: center;
+        width: 72%;
+    }
+    #banking div.banking-section {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 40px;
+        flex-wrap: wrap-reverse;
+    }
+    #banking div.banking-section div.right img {
+        width: 65%;
+        display: block;
+        margin: 0 10px;
+    }
+    #banking div.banking-section div.left h5 {
+        font-size: 11px;
+        font-weight: 600;
+        width: 80%;
+        margin-bottom: 8px;
+        margin-top: -20px;
+        padding-left: 0;
+        margin-left: 0;
+    }
+    #banking div.banking-section div.left p {
+        font-size: 8px;
+        font-weight: 500;
+        color: rgb(145, 128, 128);
+        width: 103%;
+        margin-bottom: 5px;
+        margin-left: 0px;
+    }
+    #banking div.banking-section div a.button {
+        display: inline-flex;
+        font-size: 8px;
+        font-weight: 600;
+        color: rgb(145, 128, 128);
+        border: 1px solid #E45F83;
+        padding: 6px;
+        border-radius: 10px;
+        margin-top: 6px;
+    }
+    #subscribe div.top h3 {
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 8px;
+    }
+    #subscribe div.top p {
+        font-size: 6px;
+        color: rgb(145, 128, 128);
+    }
+    #subscribe div.bottom form input[type="email"] {
+        padding: 12px 14px;
+        border: 1px solid rgb(198, 194, 194);
+        border-radius: 9px;
+        width: 105%;
+        font-size: 8px;
+    }
+    #subscribe div.bottom form input[type="submit"] {
+        background: linear-gradient(121deg, rgba(247,8,130,1) 0%, rgba(208,67,29,1) 35%, rgba(42,99,209,1));
+        border-radius: 12px;
+        border: hidden;
+        padding: 9px 12px;
+        margin-left: -76px;
+        color: #fff;
+        font-weight: 600;
+        font-size: 8px;
+    }
+    footer div.footer-section {
+        width: 58%;
+        display: flex;
+        justify-content: space-between;
+        padding: 34px 51px;
+        flex-direction: column;
+    }
+    footer div.footer-section div.one a.logo img {
+        width: 138%;
+        margin-bottom: 8px;
+    }
+    footer div.footer-section div.one p {
+        font-size: 6px;
+        font-weight: 500;
+        color: rgb(145, 128, 128);
+        margin-bottom: 30px;
+        width: 168%;
+        margin-left: 0;
+        margin-top: 6px;
+    }
+    footer section.wrapper div.footer-section div.one ul li img.fb{
+        width: 6px;
+    }
+    footer section.wrapper div.footer-section div.one ul li img.twitter{
+        width: 11px;
+    }
+    footer section.wrapper div.footer-section div.one ul li img.linkdin{
+        width:11px
+    }
+    footer div.footer-section div.two h5 {
+        font-size: 12px;
+        margin-bottom: 0px;
+        width: 55px;
+    }
+    footer div.footer-section div.two ul{
+        width: 67px;
+        line-height: 1em;
+    }
+    footer div.footer-section div.two ul li a {
+        line-height: 0px;
+        color: rgb(145, 128, 128);
+        font-size: 9px;
+    }
+    footer div.footer-section div.three h5 {
+        font-size: 12px;
+        margin-bottom: 0px;
+    }
+    footer div.footer-section div.three ul {
+        margin-left: -40;
+        width: 200%;
+        line-height:0px;
+    }
+    footer div.footer-section div.three ul {
+        margin-left: -40;
+        width: 200%;
+    }
+    footer div.footer-section div.four h5 {
+        font-size: 12px;
+        margin-bottom: 0px;
+    }
+    footer div.footer-section div.four ul {
+        margin-left: -40;
+        width: 145%;
+        margin-bottom: 15px;
+        line-height: 0px;
+    }
+}
